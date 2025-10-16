@@ -1,0 +1,62 @@
+﻿# --- Datos crudos y exportaciones ---
+*.csv
+*.tsv
+*.jsonl
+*.ndjson
+*.xlsx
+*.xls
+*.xlsb
+*.xlsm
+*.parquet
+*.feather
+*.arrow
+*.orc
+*.sav
+*.dta
+*.por
+
+# --- Reportes / documentos binarios ---
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+
+# --- Paquetes / archivos comprimidos ---
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# --- Logs / temporales ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- SO ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+
+# --- IDEs/editores ---
+.vscode/
+.idea/
+
+# --- Notebooks (checkpoints) ---
+.ipynb_checkpoints/
+
+# ===== Excepciones opcionales =====
+# !data/samples/*.csv
+# !docs/**/*.pdf
