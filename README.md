@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   A[Inicio] --> B[Hacer algo]
   B --> C{¿Decisión?}
